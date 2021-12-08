@@ -1,0 +1,370 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.12" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundlePackage": "configuration"
+	"i18n.bundleName": "ConfigurationFile"
+	"i18n.keyPrefix": "User"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "Jframe_user"
+			"visible": true
+			"minimumSize": new java.awt.Dimension( 930, 620 )
+			"resizable": false
+			"$sizePolicy": 1
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/logo_white.png" )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": new FormMessage( null, "User.label1.text" )
+				"horizontalTextPosition": 0
+				"horizontalAlignment": 0
+				"maximumSize": new java.awt.Dimension( 234, 30 )
+				"minimumSize": new java.awt.Dimension( 234, 30 )
+				"preferredSize": new java.awt.Dimension( 234, 30 )
+				"font": new java.awt.Font( "楷体", 0, 25 )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "First"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "panel1"
+				"maximumSize": new java.awt.Dimension( 630, 620 )
+				"minimumSize": new java.awt.Dimension( 630, 620 )
+				"preferredSize": new java.awt.Dimension( 630, 620 )
+				add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+					name: "menu"
+					"minimumSize": new java.awt.Dimension( 630, 620 )
+					"preferredSize": new java.awt.Dimension( 630, 620 )
+					"font": new java.awt.Font( "Microsoft YaHei UI", 0, 16 )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "car"
+							"minimumSize": new java.awt.Dimension( 30, 620 )
+							"maximumSize": new java.awt.Dimension( 2147483647, 620 )
+							"preferredSize": new java.awt.Dimension( 150, 620 )
+							"font": new java.awt.Font( "Microsoft YaHei UI", 0, 12 )
+							"fillsViewportHeight": true
+						} )
+					}, new FormLayoutConstraints( null ) {
+						"title": "轿车"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane3"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "bus"
+							"preferredSize": new java.awt.Dimension( 150, 620 )
+						} )
+					}, new FormLayoutConstraints( null ) {
+						"title": "客车"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane4"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "truck"
+							"preferredSize": new java.awt.Dimension( 150, 620 )
+						} )
+					}, new FormLayoutConstraints( null ) {
+						"title": "货车"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "North"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "After"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane5"
+				"preferredSize": new java.awt.Dimension( 250, 199 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": new FormMessage( null, "User.label3.text" )
+						"horizontalAlignment": 0
+						"maximumSize": new java.awt.Dimension( 24, 30 )
+						"preferredSize": new java.awt.Dimension( 24, 30 )
+						"minimumSize": new java.awt.Dimension( 24, 30 )
+						"font": new java.awt.Font( "楷体", 0, 18 )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "First"
+					} )
+					add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+						name: "splitPane3"
+						add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+							name: "splitPane2"
+							"orientation": 0
+							add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+								name: "splitPane6"
+								"orientation": 0
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label_greetings"
+									"text": new FormMessage( null, "User.label_greetings.text" )
+									"maximumSize": new java.awt.Dimension( 72, 30 )
+									"minimumSize": new java.awt.Dimension( 72, 30 )
+									"preferredSize": new java.awt.Dimension( 72, 30 )
+									"font": new java.awt.Font( "方正姚体", 0, 16 )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "left"
+								} )
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label5"
+									"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/Female user.png" )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "right"
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "left"
+							} )
+							add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+								name: "splitPane13"
+								"orientation": 0
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label_name"
+									"text": new FormMessage( null, "User.label_name.text" )
+									"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+									"maximumSize": new java.awt.Dimension( 41, 30 )
+									"minimumSize": new java.awt.Dimension( 41, 30 )
+									"preferredSize": new java.awt.Dimension( 41, 30 )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "left"
+								} )
+								add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+									name: "splitPane14"
+									"orientation": 0
+									add( new FormComponent( "javax.swing.JLabel" ) {
+										name: "label_gender"
+										"text": new FormMessage( null, "User.label_gender.text" )
+										"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+										"maximumSize": new java.awt.Dimension( 41, 30 )
+										"minimumSize": new java.awt.Dimension( 41, 30 )
+										"preferredSize": new java.awt.Dimension( 41, 30 )
+									}, new FormLayoutConstraints( class java.lang.String ) {
+										"value": "left"
+									} )
+									add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+										name: "splitPane15"
+										"orientation": 0
+										add( new FormComponent( "javax.swing.JLabel" ) {
+											name: "label_account"
+											"text": new FormMessage( null, "User.label_account.text" )
+											"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+											"maximumSize": new java.awt.Dimension( 41, 30 )
+											"minimumSize": new java.awt.Dimension( 41, 30 )
+											"preferredSize": new java.awt.Dimension( 41, 30 )
+										}, new FormLayoutConstraints( class java.lang.String ) {
+											"value": "left"
+										} )
+										add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+											name: "splitPane16"
+											"orientation": 0
+											add( new FormComponent( "javax.swing.JLabel" ) {
+												name: "label_accountBalance"
+												"text": new FormMessage( null, "User.label_accountBalance.text" )
+												"font": new java.awt.Font( "Microsoft YaHei UI", 1, 14 )
+												"preferredSize": new java.awt.Dimension( 68, 30 )
+												"minimumSize": new java.awt.Dimension( 68, 30 )
+												"maximumSize": new java.awt.Dimension( 68, 30 )
+											}, new FormLayoutConstraints( class java.lang.String ) {
+												"value": "left"
+											} )
+											add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+												name: "vSpacer1"
+											}, new FormLayoutConstraints( class java.lang.String ) {
+												"value": "right"
+											} )
+										}, new FormLayoutConstraints( class java.lang.String ) {
+											"value": "right"
+										} )
+									}, new FormLayoutConstraints( class java.lang.String ) {
+										"value": "right"
+									} )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "right"
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "right"
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "left"
+						} )
+						add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+							name: "splitPane4"
+							"orientation": 0
+							add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+								name: "splitPane5"
+								"orientation": 0
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "Button_rentCar"
+									"text": new FormMessage( null, "User.Button_rentCar.text" )
+									"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/Hire.png" )
+									"font": new java.awt.Font( "楷体", 0, 20 )
+									"maximumSize": new java.awt.Dimension( 151, 36 )
+									"minimumSize": new java.awt.Dimension( 151, 36 )
+									"preferredSize": new java.awt.Dimension( 151, 36 )
+									"cursor": &Cursor0 new java.awt.Cursor( 12 )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "left"
+								} )
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "Button_returnVehicle"
+									"text": new FormMessage( null, "User.Button_returnVehicle.text" )
+									"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/Return the vehicle.png" )
+									"font": new java.awt.Font( "楷体", 0, 20 )
+									"cursor": #Cursor0
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "right"
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "left"
+							} )
+							add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+								name: "splitPane1"
+								"orientation": 0
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "Button_viewAllVehicles"
+									"text": new FormMessage( null, "User.Button_viewAllVehicles.text" )
+									"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/find all vehicles.png" )
+									"font": new java.awt.Font( "楷体", 0, 20 )
+									"cursor": #Cursor0
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "left"
+								} )
+								add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+									name: "splitPane7"
+									"orientation": 0
+									add( new FormComponent( "javax.swing.JButton" ) {
+										name: "Button_viewAvailableVehicles"
+										"text": new FormMessage( null, "User.Button_viewAvailableVehicles.text" )
+										"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/find available vehicles.png" )
+										"font": new java.awt.Font( "楷体", 0, 20 )
+										"cursor": #Cursor0
+									}, new FormLayoutConstraints( class java.lang.String ) {
+										"value": "left"
+									} )
+									add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+										name: "splitPane8"
+										"orientation": 0
+										add( new FormComponent( "javax.swing.JButton" ) {
+											name: "Button_rentalSituation"
+											"text": new FormMessage( null, "User.Button_rentalSituation.text" )
+											"font": new java.awt.Font( "楷体", 0, 20 )
+											"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/my car rental situation.png" )
+											"cursor": #Cursor0
+										}, new FormLayoutConstraints( class java.lang.String ) {
+											"value": "left"
+										} )
+										add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+											name: "splitPane9"
+											"orientation": 0
+											add( new FormComponent( "javax.swing.JLabel" ) {
+												name: "label4"
+												"text": new FormMessage( null, "User.label4.text" )
+												"maximumSize": new java.awt.Dimension( 60, 40 )
+												"minimumSize": new java.awt.Dimension( 60, 40 )
+												"preferredSize": new java.awt.Dimension( 60, 40 )
+												"font": new java.awt.Font( "等线", 0, 11 )
+												"horizontalAlignment": 0
+												"foreground": new java.awt.Color( 102, 153, 255, 255 )
+											}, new FormLayoutConstraints( class java.lang.String ) {
+												"value": "left"
+											} )
+											add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+												name: "splitPane10"
+												"orientation": 0
+												add( new FormComponent( "javax.swing.JButton" ) {
+													name: "Button_accountRecharge"
+													"text": new FormMessage( null, "User.Button_accountRecharge.text" )
+													"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/recharge.png" )
+													"font": new java.awt.Font( "新宋体", 0, 18 )
+													"cursor": #Cursor0
+												}, new FormLayoutConstraints( class java.lang.String ) {
+													"value": "left"
+												} )
+												add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+													name: "splitPane11"
+													"orientation": 0
+													add( new FormComponent( "javax.swing.JButton" ) {
+														name: "Button_changePassword"
+														"text": new FormMessage( null, "User.Button_changePassword.text" )
+														"font": new java.awt.Font( "新宋体", 0, 18 )
+														"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/change Password.png" )
+														"cursor": #Cursor0
+													}, new FormLayoutConstraints( class java.lang.String ) {
+														"value": "left"
+													} )
+													add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+														name: "splitPane12"
+														"orientation": 0
+														add( new FormComponent( "javax.swing.JButton" ) {
+															name: "Button_signOut"
+															"text": new FormMessage( null, "User.Button_signOut.text" )
+															"font": new java.awt.Font( "新宋体", 0, 18 )
+															"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/sign out.png" )
+															"cursor": #Cursor0
+														}, new FormLayoutConstraints( class java.lang.String ) {
+															"value": "left"
+														} )
+														add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+															name: "splitPane17"
+															"orientation": 0
+															add( new FormComponent( "javax.swing.JButton" ) {
+																name: "button1"
+																"text": new FormMessage( null, "User.button1.text" )
+																"maximumSize": new java.awt.Dimension( 138, 36 )
+																"minimumSize": new java.awt.Dimension( 138, 36 )
+																"preferredSize": new java.awt.Dimension( 138, 36 )
+																"icon": new com.jformdesigner.model.SwingIcon( 0, "/huang/wen/source/Delete account.png" )
+																"font": new java.awt.Font( "Microsoft YaHei UI", 0, 16 )
+																"foreground": new java.awt.Color( 247, 0, 0, 255 )
+															}, new FormLayoutConstraints( class java.lang.String ) {
+																"value": "left"
+															} )
+															add( new FormComponent( "javax.swing.JLabel" ) {
+																name: "label2"
+																"text": new FormMessage( null, "User.label2.text" )
+																"horizontalTextPosition": 0
+																"font": new java.awt.Font( "Microsoft YaHei UI", 3, 18 )
+															}, new FormLayoutConstraints( class java.lang.String ) {
+																"value": "right"
+															} )
+														}, new FormLayoutConstraints( class java.lang.String ) {
+															"value": "right"
+														} )
+													}, new FormLayoutConstraints( class java.lang.String ) {
+														"value": "right"
+													} )
+												}, new FormLayoutConstraints( class java.lang.String ) {
+													"value": "right"
+												} )
+											}, new FormLayoutConstraints( class java.lang.String ) {
+												"value": "right"
+											} )
+										}, new FormLayoutConstraints( class java.lang.String ) {
+											"value": "right"
+										} )
+									}, new FormLayoutConstraints( class java.lang.String ) {
+										"value": "right"
+									} )
+								}, new FormLayoutConstraints( class java.lang.String ) {
+									"value": "right"
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "right"
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "right"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "Center"
+					} )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 20 )
+			"size": new java.awt.Dimension( 1150, 660 )
+		} )
+	}
+}
